@@ -8,6 +8,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetKeyDelay, 5, 1
 MsgBox,4096,Attention!, Make sure Discord is open and you are on your PokeMeow bot channel.
 MsgBox,4096,Attention!, Keyboard Shortcuts: `n`n;Pokemon  `;fish  Pull              123 `n`nPokeballs                          qwerty `n`nMoves                                   asdf `n`nSwitch                                     zxc
+IfWinNotExist, ahk_exe Discord.exe
+	gosub exitwarn
 
 
 Gui, +AlwaysOnTop 
@@ -145,6 +147,9 @@ return
 releasediscord: ; not currently used
 WinActivate, ahk_exe PDM.exe
 return
+
+exitwarn:
+msgbox, Discord not detected. Closing.
 
 GuiClose:
 GuiEscape:
