@@ -1,11 +1,11 @@
-﻿;Made by dragnmastr85, member of clan Fried Magikarp. DM dragnmastr85#8585 on discord for feedback or help!
+;Made by dragnmastr85, member of clan Fried Magikarp. DM dragnmastr85#8585 on discord for feedback or help!
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetKeyDelay, 5, 1
+SetKeyDelay, 10, 1
 MsgBox,4096,Attention!, Make sure Discord is open and you are on your PokeMeow bot channel.
 MsgBox,4096,Attention!, Keyboard Shortcuts: `n`n;Pokemon  `;fish  Pull              123 `n`nPokeballs                          qwerty `n`nMoves                                   asdf `n`nSwitch                                     zxc
 IfWinNotExist, ahk_exe Discord.exe
