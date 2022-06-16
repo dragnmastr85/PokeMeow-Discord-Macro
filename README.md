@@ -1,8 +1,9 @@
 # PokeMeow-Discord-Macro
 
 Release:
-https://github.com/dragnmastr85/PokeMeow-Discord-Macro/releases/tag/v1.0.0
+https://github.com/dragnmastr85/PokeMeow-Discord-Macro/archive/refs/tags/v1.0.1.zip
 
-Download, extract and run the executable.
+· Download, extract and run the executable.
 
-Requires Discord for Windows
+Requires Discord for Windows:
+https://discord.com/download
