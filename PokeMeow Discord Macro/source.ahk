@@ -50,12 +50,12 @@ gosub releasediscord
 return
 fish:
 gosub grabdiscord
-ControlSend,,;f{enter}, ahk_exe Discord.exe
+ControlSend,,;f{enter}Pull, ahk_exe Discord.exe
 gosub releasediscord
 return
 pull:
 gosub grabdiscord
-ControlSend,,Pull{enter}, ahk_exe Discord.exe
+ControlSend,,{enter}, ahk_exe Discord.exe
 gosub releasediscord
 return
 
